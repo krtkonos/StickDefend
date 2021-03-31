@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: ea914cb7b9ded954aa6cc556b64987f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8604154177146193072
+    second: KnifeEnemy_0
+  - first:
+      213: -741013241622208791
+    second: KnifeEnemy_1
+  - first:
+      213: -3847891849707324980
+    second: KnifeEnemy_2
+  - first:
+      213: 3805003136707834773
+    second: KnifeEnemy_3
+  - first:
+      213: -4888276761442780096
+    second: KnifeEnemy_4
+  - first:
+      213: -1388496767351535450
+    second: KnifeEnemy_5
+  - first:
+      213: -6313635445193948346
+    second: KnifeEnemy_6
+  - first:
+      213: -8350508064730927636
+    second: KnifeEnemy_7
+  - first:
+      213: -2584488638837816247
+    second: KnifeEnemy_8
+  - first:
+      213: 9076115155794041090
+    second: KnifeEnemy_9
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KnifeEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1925
+        width: 293
+        height: 293
+      alignment: 9
+      pivot: {x: 0.49168548, y: 0.06377028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.041176, y: 146.5}
+        - {x: -96.52914, y: 140.74461}
+        - {x: -146.34401, y: 56.27}
+        - {x: -146.34401, y: -76.93996}
+        - {x: -74.8705, y: -146.25246}
+        - {x: 70.24239, y: -146.25246}
+        - {x: 76.73998, y: -145.16945}
+        - {x: 146.5, y: -96.4341}
+        - {x: 146.5, y: 88.5}
+        - {x: 75.65705, y: 146.5}
+      physicsShape:
+      - - {x: -132.2659, y: 146.5}
+        - {x: -146.34401, y: 134.24657}
+        - {x: -146.34401, y: -96.4341}
+        - {x: -111.690186, y: -146.25246}
+        - {x: 75.65705, y: -146.25246}
+        - {x: 146.04764, y: -82.354996}
+        - {x: 146.04764, y: 106.08836}
+        - {x: 63.7448, y: 146.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e6b6b851a19d64fa9a35731de54030
+      internalID: -8604154177146193072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnifeEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1092
+        width: 238
+        height: 699
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.46606, y: 349.5}
+        - {x: 6.7485623, y: 349.5}
+        - {x: -21, y: 316.5}
+        - {x: -118.87155, y: -162.12305}
+        - {x: -118.87155, y: -338.65332}
+        - {x: -88.54945, y: -349.4834}
+        - {x: 15.412018, y: -349.4834}
+        - {x: 31.655998, y: -318.07617}
+        - {x: 119, y: 229.92578}
+        - {x: 119, y: 323.06445}
+      physicsShape:
+      - - {x: 27.32427, y: 349.5}
+        - {x: 6.7485623, y: 343.6416}
+        - {x: -21.407671, y: 324.14746}
+        - {x: -37.65165, y: 279.74414}
+        - {x: -118.87155, y: -255.26172}
+        - {x: -118.87155, y: -312.66113}
+        - {x: -92.88118, y: -349.4834}
+        - {x: -0.831962, y: -349.4834}
+        - {x: 33, y: -270.5}
+        - {x: 119, y: 182.27344}
+        - {x: 119, y: 346.89062}
+        - {x: 105.29537, y: 349.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fff8be2fc09f64d9a262e3ed6a1063
+      internalID: -741013241622208791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnifeEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1142
+        width: 214
+        height: 490
+      alignment: 9
+      pivot: {x: 0.20136581, y: 0.9075756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caf74c731bb4b74685bbe6ec72bc9b1
+      internalID: -3847891849707324980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnifeEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1285
+        width: 213
+        height: 489
+      alignment: 9
+      pivot: {x: 0.19996378, y: 0.92474526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -82.5, y: 61.5}
+        - {x: 10.413042, y: -244.5}
+        - {x: 106.5, y: -244.5}
+        - {x: 90.5, y: -141.5}
+        - {x: -13.5, y: 244.5}
+        - {x: -84.88498, y: 244.5}
+        - {x: -98.5, y: 208.5}
+      physicsShape:
+      - - {x: -104.377754, y: 244.5}
+        - {x: -105.460686, y: 237.18994}
+        - {x: -105.460686, y: 126.72315}
+        - {x: 10.413042, y: -230.66942}
+        - {x: 33.154613, y: -244.5}
+        - {x: 86.218285, y: -244.5}
+        - {x: 106.5, y: -222.00536}
+        - {x: 106.5, y: -151.60985}
+        - {x: 0.6666536, y: 244.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf46374d92be0540bccd43b6b7cd02d
+      internalID: 3805003136707834773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnifeEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 549
+        width: 216
+        height: 554
+      alignment: 9
+      pivot: {x: 0.85134506, y: 0.8965399}
+      border: {x: 4, y: 0, z: 0, w: 2}
+      outline:
+      - - {x: -6.074357, y: 277}
+        - {x: -14.737813, y: 274.45755}
+        - {x: -107.869965, y: -148.99852}
+        - {x: -107.869965, y: -276.79343}
+        - {x: -14, y: -277}
+        - {x: 40, y: -65}
+        - {x: 108, y: 269.0425}
+        - {x: 88.14073, y: 277}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf8fc5d40c0b2e439b0a15a6d565c6c
+      internalID: -4888276761442780096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnifeEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 979
+        width: 344
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79, y: -90}
+        - {x: 157.49655, y: -105.632324}
+        - {x: 172, y: -98.05127}
+        - {x: 172, y: 3.7514613}
+        - {x: 126, y: -10}
+        - {x: -100, y: 98}
+        - {x: -171.71478, y: 106}
+        - {x: -172, y: 13}
+      - - {x: 110, y: 46}
+        - {x: 50, y: 38}
+        - {x: 98, y: 11}
+        - {x: 102, y: 13}
+        - {x: 92, y: 9}
+        - {x: 96, y: 50}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dab430a2a96fe42b47dd79a8092fe8
+      internalID: -1388496767351535450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnifeEnemy_6
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1063
+        width: 368
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92, y: -10.5}
+        - {x: -132, y: -3.5}
+        - {x: -92, y: -13.5}
+        - {x: -58, y: -41.5}
+        - {x: -18, y: -48.5}
+        - {x: -47, y: -25.5}
+        - {x: -72, y: -15.5}
+      - - {x: -183.90147, y: 105.5}
+        - {x: -184, y: 25.5}
+        - {x: 97, y: -93.5}
+        - {x: 184, y: -105.5}
+        - {x: 160, y: -7.5}
+        - {x: -119, y: 105.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51692994ae17e54ba32d8d291fc680f
+      internalID: -6313635445193948346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnifeEnemy_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 265
+        height: 424
+      alignment: 9
+      pivot: {x: 0.80145204, y: 0.86739457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.5, y: 204}
+        - {x: -112.5, y: -96}
+        - {x: -132.5, y: -193.77979}
+        - {x: -112.083466, y: -212}
+        - {x: -39.52702, y: -212}
+        - {x: 128.5, y: 112}
+        - {x: 132.5, y: 212}
+      - - {x: 9.5, y: -116}
+        - {x: 27.5, y: -52}
+        - {x: 56.5, y: -32}
+        - {x: 64.5, y: -9}
+        - {x: 33.5, y: -42}
+      physicsShape:
+      - - {x: 13.5, y: -86}
+        - {x: -6.5, y: -108}
+        - {x: 4.5, y: -144}
+        - {x: 20.5, y: -77}
+        - {x: 45.5, y: -26}
+      - - {x: 38.444088, y: 212}
+        - {x: -132.5, y: -109.305176}
+        - {x: -132.5, y: -210.0249}
+        - {x: -129.41037, y: -212}
+        - {x: -6.5, y: -196}
+        - {x: 132.5, y: 126.79052}
+        - {x: 132.5, y: 212}
+      - - {x: 38.5, y: -95}
+        - {x: 38.5, y: -79}
+        - {x: 6.5, y: -39}
+        - {x: -5.5, y: -63}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4411771f24ccf45aae65b80a39a1fa
+      internalID: -8350508064730927636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnifeEnemy_8
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 336
+        height: 423
+      alignment: 9
+      pivot: {x: 0.6783142, y: 0.8965911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.67255, y: 211.5}
+        - {x: 3.20385, y: 211.5}
+        - {x: -167.89941, y: -122.92139}
+        - {x: -167.89941, y: -199.81494}
+        - {x: -154.90422, y: -211.5}
+        - {x: -89.92831, y: -211.5}
+        - {x: -67.18673, y: -192.23389}
+        - {x: 89, y: 116.5}
+        - {x: 100.66773, y: 185.73584}
+      - - {x: -40, y: 119.5}
+        - {x: -80, y: 52.5}
+        - {x: -53, y: 77.5}
+        - {x: -50, y: 99.5}
+        - {x: -38, y: 107.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac9bd948a5cd16439fe38c902a1faa1
+      internalID: -2584488638837816247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnifeEnemy_9
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 421
+        width: 221
+        height: 554
+      alignment: 9
+      pivot: {x: 0.80724907, y: 0.96142834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.397563, y: 277}
+        - {x: -110.13962, y: -176.2788}
+        - {x: -110.13962, y: -264.0024}
+        - {x: -98.22736, y: -276.9985}
+        - {x: -21.339193, y: -276.9985}
+        - {x: -2.5, y: -227}
+        - {x: 110.5, y: 198.44191}
+        - {x: 110.5, y: 263.42236}
+        - {x: 96.70039, y: 277}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247af946b0f304c44b4c736ed03bba7d
+      internalID: 9076115155794041090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
