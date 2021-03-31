@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-
+using System;
 
 public class ManageScreen : MonoBehaviour
 {
@@ -29,6 +29,7 @@ public class ManageScreen : MonoBehaviour
 
     private void Start()
     {
+        load();
         endScreen.SetActive(false);
         activeScore.SetActive(false);
         startScreen.SetActive(true);
@@ -54,6 +55,8 @@ public class ManageScreen : MonoBehaviour
         {
             bestScore = score;
         }
+        JSONClass JSON = new JSONClass();
+        Debug.Log(JSON.score);
     }
     private void Show()
     {
@@ -87,5 +90,33 @@ public class ManageScreen : MonoBehaviour
         GameObject.Find("Player").GetComponent<PlayerMove>().currentPlayerHealth = GameObject.Find("Player").GetComponent<PlayerMove>().playerMaxHealth;
         Time.timeScale = 0;
         score = 0;
+        save();
+    }
+
+    public void save()
+    {
+        JSONClass JSON = new JSONClass();
+        JSON.score = bestScore;    
+        string json = JsonUtility.ToJson(JSON);
+
+        File.WriteAllText(Application.dataPath + "saveFile.json", json);
+        Debug.Log(json + "saved");
+    }
+    public void load()
+    {
+        if (File.Exists(Application.dataPath + "saveFile.json"))
+        {
+            JSONClass JSON = new JSONClass();
+            string json = File.ReadAllText(Application.dataPath + "saveFile.json");
+            JSONClass loaded = JsonUtility.FromJson<JSONClass>(json);
+            bestScore = loaded.score;        
+            Debug.Log("score: " + loaded.score);    
+        }
+    }
+
+    [Serializable]
+    public class JSONClass
+    {
+        public float score = 0;    
     }
 }
